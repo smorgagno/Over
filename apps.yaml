@@ -1,0 +1,9 @@
+Over:
+  module: Over
+  class: Over
+  over_sensors:
+    - binary_sensor.xxxx_overheating
+    - binary_sensor.xxx_overpowering
+    - binary_sensor.xxx_overvoltage
+  notification_services:
+    - telegram
