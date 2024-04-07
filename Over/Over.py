@@ -12,8 +12,7 @@ class Over(hass.Hass):
     def initialize(self):
         for sensor in self.args["over_sensors"]:
             self.listen_state(self.state_change, sensor)
-            #self.listen_state(self.state_change, sensor, new="on", duration=int(self.args["numero_secondi_off"]))
-
+            
     def state_change(self, entity, attribute, old, new, kwargs):
         if new != "":
             stato = self.get_state(entity)
