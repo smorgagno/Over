@@ -1,2 +1,2 @@
 # Over
-Appdaemon script for HA about Shelly overheating, overpowering, overvoltage ...
+Simple Appdaemon script to detect the following Shelly events: overheating, overpowering, overvoltage.
