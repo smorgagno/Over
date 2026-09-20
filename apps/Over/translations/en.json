@@ -1,0 +1,17 @@
+{
+  "log.i18n_missing": "Translation file '{language}' not found, using en.",
+  "log.i18n_loaded": "Language: {language}",
+  "log.missing_config": "Over is not starting: set over_sensors and notification_services in apps.yaml.",
+  "log.missing_entity": "Entity not found, skipping: {entity}",
+  "log.ready": "Listening to {count} Shelly protection sensors.",
+  "log.throttled": "Notification skipped for {entity}: cooldown still active.",
+  "notify.title": "Over",
+  "notify.overheating": "Overheating on {name}.",
+  "notify.overpowering": "Overpowering on {name}.",
+  "notify.overvoltage": "Overvoltage on {name}.",
+  "notify.problem": "Protection alert on {name}.",
+  "notify.overheating_clear": "Overheating cleared on {name}.",
+  "notify.overpowering_clear": "Overpowering cleared on {name}.",
+  "notify.overvoltage_clear": "Overvoltage cleared on {name}.",
+  "notify.problem_clear": "Protection alert cleared on {name}."
+}

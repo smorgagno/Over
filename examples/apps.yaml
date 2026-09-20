@@ -1,0 +1,12 @@
+Over:
+  module: Over
+  class: Over
+  language: en
+  notify_on_clear: false
+  over_sensors:
+    - binary_sensor.device_overheating
+    - binary_sensor.device_overpowering
+    - binary_sensor.device_overvoltage
+  notification_services:
+    - telegram
+  notification_interval: 120

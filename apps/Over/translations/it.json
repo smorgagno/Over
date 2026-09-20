@@ -1,0 +1,17 @@
+{
+  "log.i18n_missing": "File di traduzione '{language}' non trovato, uso en.",
+  "log.i18n_loaded": "Lingua: {language}",
+  "log.missing_config": "Over non parte: imposta over_sensors e notification_services in apps.yaml.",
+  "log.missing_entity": "Entita non trovata, la salto: {entity}",
+  "log.ready": "In ascolto su {count} sensori di protezione Shelly.",
+  "log.throttled": "Notifica ignorata per {entity}: cooldown ancora attivo.",
+  "notify.title": "Over",
+  "notify.overheating": "Surriscaldamento su {name}.",
+  "notify.overpowering": "Sovraccarico di potenza su {name}.",
+  "notify.overvoltage": "Sovratensione su {name}.",
+  "notify.problem": "Allarme di protezione su {name}.",
+  "notify.overheating_clear": "Surriscaldamento rientrato su {name}.",
+  "notify.overpowering_clear": "Sovraccarico di potenza rientrato su {name}.",
+  "notify.overvoltage_clear": "Sovratensione rientrata su {name}.",
+  "notify.problem_clear": "Allarme di protezione rientrato su {name}."
+}
