@@ -102,3 +102,8 @@ A pull request with a new `translations/<code>.json` file is welcome.
 ## Version notes
 
 This release targets AppDaemon 4.5 (`from appdaemon.plugins.hass import Hass`). Compared with 1.x, Over no longer notifies on `off` or `unknown`, and the cooldown is per sensor instead of global.
+
+## License
+
+This project is licensed under the [MIT License](LICENSE).
+
